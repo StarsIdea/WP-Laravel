@@ -1,0 +1,113 @@
+.header{
+    display: inline-flex;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.header h3,
+.header .links{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header .links{
+    margin-left: auto;
+}
+
+.header .links a{
+    position: relative;
+    top: 20px;
+    padding: 20px 15px;
+}
+form{
+    margin: auto;
+    width: fit-content;
+}
+.content{
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    /* justify-content: space-around; */
+}
+.navigation{
+    /* background-color: #004ba8;
+    color: #fff; */
+    width: 30%;
+}
+.Extra.Data{
+    width: 60%;
+}
+.navigation>h1{
+    padding: 30px 0px 0px 0px;
+}
+.navigation .title{
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #004ba8;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navigation div>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navigation div>ul ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+.navigation div>ul a{
+    color: #004ba8;
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 40px;
+}
+.navigation div>ul ul:hover a{
+    color: #004ba8;
+}
+.navigation div>ul ul:hover{
+    /* background-color: #ffc801;
+    color: #004ba8; */
+}
+.navigation div>ul ul{
+    border-bottom: 1px solid #999;
+}
+.navigation div>ul ul li span{
+    min-width: 40px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.Extra.Datas{
+    margin: 30px 50px;
+}
+.Extra.Datas .block-quick-links .quick-links{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+.Extra.Datas .block-quick-links .quick-links .quick-link-item{
+    margin-right: 10px;
+}
+.Extra.Datas .block-quick-links .quick-links .quick-link-item a{
+    display: table-cell;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 32px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 20px;
+    text-decoration: none;
+    width: max-content;
+    display:block;
+}
+.Extra.Datas .block-quick-links .quick-links .quick-link-item.riders a{
+    background: #fafafa url(/wp-content/uploads/2021/03/icons.png) no-repeat 8px 14px;
+}
+.Extra.Datas .block-quick-links .quick-links .quick-link-item.horses a{
+    background: #fafafa url(/wp-content/uploads/2021/03/icons.png) no-repeat 8px -23px;
+}
+.Extra.Datas .block-quick-links .quick-links .quick-link-item.events a{
+    background: #fafafa url(/wp-content/uploads/2021/03/icons.png) no-repeat 8px -58px;
+}

@@ -1,0 +1,123 @@
+.content .title ul#linklist{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding-top: 30px;
+}
+.content .title ul#linklist li{
+    margin-right: 10px;
+}
+.content .title ul#linklist li a{
+    display: table-cell;
+    background: #fafafa url('/wp-content/uploads/2021/03/icons.png') no-repeat 8px 14px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 32px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 20px;
+}
+.content .title ul#linklist li.horses a{
+    background-position: 8px -23px;
+}
+.content .title ul#linklist li.events a{
+    background-position: 8px -58px;
+}
+.links a{
+    text-transform:uppercase;
+    padding: 10px;
+    color: #0049a6;
+    line-height: 40px;
+}
+.links a:hover{
+    color: #fff;
+    background-color: #0049a6;
+}
+#ride_section .elementor-container{
+    display: grid;
+}
+.links{
+    display: flex;
+    background-color: #f8efd1;
+}
+.links .nav-list{
+    margin-right: auto;
+}
+.links .nav-list ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+.links .nav-list ul li{
+    margin-right: 10px;
+}
+.pagination{
+    list-style: none;
+    display: flex;
+}
+.pagination li a,
+.pagination li span{
+    margin-right: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.pagination li.active a,
+.pagination li.active span{
+    background-color: #004ba8;
+    color: #fff;
+}
+.section-header{
+    text-align: left;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-header form{
+    margin-left: auto;
+}
+.section-header form input[type="submit"]{
+    width: 50px;
+    background-color: #004ba8;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    color: #fff;
+}
+.section-header form input[type="submit"]:hover{
+    color: #004ba8;
+    background-color: #ffc801;
+}
+.equine-datas .section-header,
+.member-datas .section-header{
+    display: grid;
+}
+.section-body h3,
+.section-body h4{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.section-body thead{
+    background-color: #004ba8;
+}
+.section-body thead th{
+    color: #fff;
+    text-transform: uppercase;
+}
+.section-header input.exist_value{
+    padding-right: 10px;
+}
+.section-header input.exist_value::after{
+    content: 'x';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+    color: #666;
+}
